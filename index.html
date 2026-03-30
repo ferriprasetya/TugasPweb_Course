@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MalasNgoding | Vibe Coding Mastery</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Blobs -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+  <div class="bg-blob blob-3"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-code"></i> Malas<span>Ngoding</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#benefits">Benefits</a>
+        <a href="#courses">Courses</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#courses" class="glass-btn primary mobile-only" style="display: none; width: 100%; text-align: center;">Join Now</a>
+      </div>
+      <div class="nav-actions" style="display: flex; gap: 16px; align-items: center;">
+        <a href="#courses" class="glass-btn primary desktop-only" style="padding: 10px 24px; font-size: 0.95rem;">Join Now</a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+        <div class="hero-badge">🔥 Era Vibe Coding Indonesia Sudah Datang</div>
+        <h1 class="hero-title">Capek Ngoding? Saatnya Belajar <span>Vibe Coding</span></h1>
+        <p class="hero-desc">Berhenti buang-buang waktu ngetik baris demi baris. Kuasai workflow AI Agent paling canggih (Cursor, Antigravity, Claude Code) dan bikin aplikasi kompleks 10x lebih cepat.</p>
+        <div class="hero-actions">
+          <a href="#courses" class="glass-btn primary">Jadi Vibe Coder Sekarang</a>
+          <a href="#benefits" class="glass-btn"><i class="fa-solid fa-play"></i> Lihat Cara Kerjanya</a>
+        </div>
+      </div>
+
+      <div class="glass hero-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+        <div class="stat-item">
+          <h3>5K+</h3>
+          <p>Vibe Coder Aktif Indonesia</p>
+        </div>
+        <div class="stat-item">
+          <h3>120+</h3>
+          <p>Modul Video Praktis</p>
+        </div>
+        <div class="stat-item">
+          <h3>24/7</h3>
+          <p>Discord 1.200+ Member Tiap Hari</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="benefits">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Kenapa Harus Vibe Coding di 2026?</h2>
+        <p class="section-subtitle">Developer yang masih ngoding manual bakal ketinggalan kereta. Yang pake AI Agent? Mereka yang bakal dapet proyek freelance dollar, naik gaji, atau bikin startup sendiri.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="glass benefit-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="benefit-icon">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <h3>AI-First Workflow</h3>
+          <p>Tinggalkan VS Code jadul. Belajar pakai Code Editor generasi baru (Antigravity & Claude Code) yang AI-nya native. Kamu cukup kasih vibe, AI yang ngerjain sisanya.</p>
+        </div>
+        <div class="glass benefit-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="benefit-icon" style="color: #9b51e0; background: rgba(155, 81, 224, 0.1);">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <h3>Bikin Aplikasi 10x Lebih Cepat</h3>
+          <p>Mau bikin e-commerce, dashboard realtime, atau microservices? Dulu butuh berminggu-minggu. Sekarang? Cuma beberapa hari. Langsung deploy, langsung dapet client!</p>
+        </div>
+        <div class="glass benefit-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="benefit-icon" style="color: #4facfe; background: rgba(79, 172, 254, 0.1);">
+            <i class="fa-solid fa-users-rays"></i>
+          </div>
+          <h3>Komunitas Vibe Coder Indonesia</h3>
+          <p>Circle eksklusif di Discord bareng ratusan developer Indonesia yang sudah jago prompting. Sharing trik rahasia, bahas AI agent terbaru, kolaborasi proyek, sampai cari kerja bareng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Belajar dari Studi Kasus</h2>
+        <p class="section-subtitle">Investasi sekali seumur hidup. Hemat ribuan jam ngoding. Jadi 10x developer yang paling dicari di Indonesia.</p>
+      </div>
+      <div class="courses-grid">
+        <!-- Course 1 -->
+        <div class="glass course-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="course-badge">Full Stack</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Bikin Website POS dalam 1 Hari Pakai Antigravity</h3>
+          <p class="course-desc">Vibe coding lengkap dari nol: bikin aplikasi Point of Sales full production-ready cuma pakai prompt bahasa Indonesia. Cocok buat yang mau jualan online atau freelance.</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 299<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+        <!-- Course 2 -->
+        <div class="glass course-card popular" data-aos="zoom-in" data-aos-delay="200">
+          <div class="course-badge">Frontend</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Bikin Landing Page Viral dalam 1 Jam Pakai Cursor</h3>
+          <p class="course-desc">Kuasai vibe coding frontend. Desain UI modern, animasi keren, conversion tinggi — tanpa ngetik kode manual lagi. Langsung bisa jual jasa landing page!</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 199<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+        <!-- Course 3 -->
+        <div class="glass course-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="course-badge">Backend</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Bangun Microservices Scalable dalam 1 Hari Pakai Claude Code</h3>
+          <p class="course-desc">Arsitektur backend agentic yang siap nampung jutaan user. Cocok buat yang mau kerja di startup tech Indonesia atau jadi backend specialist.</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 349<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+        <!-- Course 4 -->
+        <div class="glass course-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="course-badge">Frontend</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Clone TikTok UI dalam 2 Jam Pakai Replit Agent</h3>
+          <p class="course-desc">Latihan slicing UI + realtime API. Langsung jadi portofolio kekinian yang bikin recruiter melirik.</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 149<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+        <!-- Course 5 -->
+        <div class="glass course-card popular" data-aos="zoom-in" data-aos-delay="200">
+          <div class="course-badge">Full Stack</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Bikin Aplikasi Chat AI Sendiri dalam 1 Hari Pakai Devin</h3>
+          <p class="course-desc">Full autonomous: dari nol sampai deploy, ada auth, realtime chat, plus fitur AI cerdas. Proyek impian buat portofolio.</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 249<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+        <!-- Course 6 -->
+        <div class="glass course-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="course-badge">Backend</div>
+          <h3 class="course-title" style="font-size: 1.5rem;">Bikin Realtime Dashboard Analytics Pakai Windsurf</h3>
+          <p class="course-desc">Dashboard live super responsif dengan typing indicator & update instan. Siap production & scalable.</p>
+          <div class="course-price" style="font-size: 2.5rem;">Rp 199<span>rb</span></div>
+          <a href="#" class="glass-btn primary" style="width: 100%;">Daftar Sekarang</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Apa Kata Vibe Coder Indonesia?</h2>
+        <p class="section-subtitle">Mereka sudah ninggalin ngoding manual dan sekarang hidupnya jauh lebih enak.</p>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="glass testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fa-solid fa-quote-left"></i>
+          <p class="testi-text">"Gila! Dulu bikin landing page butuh 1 minggu, sekarang pakai Cursor + Vibe Coding dari MalasNgoding cuma 2 jam. Langsung dapet client freelance Rp8jt!"</p>
+          <div class="testi-user">
+            <img src="https://i.pravatar.cc/100?img=11" alt="User" class="testi-avatar">
+            <div class="testi-info">
+              <h4>Budi Santoso</h4>
+              <p>Freelance Web Developer (Jakarta)</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fa-solid fa-quote-left"></i>
+          <p class="testi-text">"Baru 2 minggu belajar vibe coding, aku sudah bisa bikin dashboard analytics buat UMKM klien sendiri. Sekarang tiap bulan ada pemasukan tambahan dari project freelance!"</p>
+          <div class="testi-user">
+            <img src="https://i.pravatar.cc/100?img=23" alt="User" class="testi-avatar">
+            <div class="testi-info">
+              <h4>Andi Pratama</h4>
+              <p>Data Analyst Freelancer (Bandung)</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass testimonial-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fa-solid fa-quote-left"></i>
+          <p class="testi-text">"Dulu minder karena merasa telat belajar coding. Di MalasNgoding aku ngerti cara ngobrol sama AI agent, dan sekarang portfolio-ku jauh lebih kuat buat apply kerja remote."</p>
+          <div class="testi-user">
+            <img src="https://i.pravatar.cc/100?img=32" alt="User" class="testi-avatar">
+            <div class="testi-info">
+              <h4>Sari Wulandari</h4>
+              <p>Junior Frontend Developer (Yogyakarta)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Ada pertanyaan sebelum join? Berikut beberapa jawaban untuk pertanyaan yang paling sering diajukan calon member.</p>
+      </div>
+      <div class="faq-container">
+        <div class="glass faq-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="faq-question">
+            <span>Apakah course ini cocok buat yang benar-benar nol coding?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Sangat cocok! Malah paling dianjurkan. Kamu diajarin prompting bahasa manusia, bukan sintaks ribet. Fokus ke logika bisnis aja, AI yang bikin kodenya.
+          </div>
+        </div>
+        <div class="glass faq-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="faq-question">
+            <span>Akses materinya lifetime?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Iya banget! Sekali bayar = akses selamanya + update materi gratis selamanya + tetap di komunitas Discord.
+          </div>
+        </div>
+        <div class="glass faq-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="faq-question">
+            <span>Ada sertifikatnya nggak?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Ada! Setelah selesai semua modul dan submit portofolio AI project, kamu dapet Certified AI-Assisted Vibe Coder dari MalasNgoding — bisa langsung dipasang di LinkedIn & CV.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <i class="fa-solid fa-code"></i> Malas<span>Ngoding</span>
+          </a>
+          <p>Pusat pelatihan Vibe Coding & AI Agent pertama di Indonesia. Membantu ribuan developer Indonesia berhenti jadi “pengetik kode” dan jadi arsitek sistem yang diberdayakan AI.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#benefits">Why Us?</a></li>
+            <li><a href="#courses">Pricing & Courses</a></li>
+            <li><a href="#testimonials">Success Stories</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Get In Touch</h4>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-discord me-2"></i> Discord Community</a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram me-2"></i> Instagram</a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube me-2"></i> YouTube Channel</a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope me-2"></i> Email Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 MalasNgoding (MN) - Vibe Coding Mastery. Crafted with <i class="fa-solid fa-heart" style="color: var(--accent-pr);"></i> by Indonesian Developers untuk Indonesian Developers.
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      once: false,
+      offset: 80,
+      duration: 800,
+      easing: 'ease-out-cubic',
+    });
+
+    // Navbar Scroll Effect
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 80) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+
+    // FAQ Toggle
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // Get answer element
+        const answer = item.querySelector('.faq-answer');
+
+        // Close gracefully others
+        faqItems.forEach(otherItem => {
+          if (otherItem !== item && otherItem.classList.contains('active')) {
+            otherItem.classList.remove('active');
+          }
+        });
+
+        // Toggle current
+        item.classList.toggle('active');
+      });
+    });
+
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    mobileBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = mobileBtn.querySelector('i');
+      if (navLinks.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        const icon = mobileBtn.querySelector('i');
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      });
+    });
+  </script>
+</body>
+
+</html>
