@@ -392,6 +392,94 @@ nav.scrolled {
   line-height: 1.7;
 }
 
+/* Instructors Section */
+.instructors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.instructor-card {
+  padding: 32px;
+  transition: all 0.35s ease;
+}
+
+.instructor-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(155, 81, 224, 0.35);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.instructor-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.instructor-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.14);
+}
+
+.instructor-meta h3 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+.instructor-role {
+  color: var(--accent-bl);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.instructor-exp {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.instructor-highlights {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.instructor-highlights li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #d6dbe6;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.instructor-highlights i {
+  color: var(--accent-pr);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.mentor-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mentor-badge {
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  color: #f3f4f8;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
 /* Courses Section */
 .courses-grid {
   display: grid;
@@ -789,12 +877,14 @@ footer {
     font-size: 2.2rem;
   }
   .course-card,
-  .benefit-card {
+  .benefit-card,
+  .instructor-card {
     padding: 30px;
   }
   .courses-grid,
   .benefits-grid,
-  .testimonials-wrapper {
+  .testimonials-wrapper,
+  .instructors-grid {
     grid-template-columns: 1fr;
   }
 }
